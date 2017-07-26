@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Calculate";
+}
+
+<h2>货物价格计算</h2>
+<form method="get" action="/Item/CalculateItemPrice">
+    <table border="1">
+        <tr>
+            <td>货物原价(美元)</td>
+            <td>重量(lb)</td>
+            <td>美元人民币汇率</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="price" /></td>
+            <td><input type="text" id="weigh" /></td>
+            <td>7</td>
+        </tr>
+    </table>
+    <button type="submit">计算</button>
+</form>
+
+

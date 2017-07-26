@@ -14,5 +14,11 @@ namespace AzureRestApi.Controllers
 
             return View();
         }
+
+        public ActionResult Calculate()
+        {
+            ViewBag.Title = "Home Page";
+            return View();
+        }
     }
 }
